@@ -1,0 +1,79 @@
+body {
+  background-color: salmon;
+}
+* {
+  font-family: "Permanent Marker", cursive;
+  text-shadow: 0.5vw 0.5vw 0.5vw brown;
+  box-shadow: 1vw 1vw 1vw 0.5vw brown;
+  border-radius: 1vw;
+}
+.flex-conainer {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+.utility {
+  position: relative;
+  background-color: dodgerblue;
+  flex: 20%;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  border: solid black 2px;
+  text-align: center;
+}
+
+.name {
+  color: burlywood;
+  background-color: forestgreen;
+  text-align: center;
+  margin: 20px;
+}
+.playground {
+  flex: 60%;
+  padding: 20px;
+  justify-content: safe center;
+  background-color: burlywood;
+}
+.parent {
+  position: relative;
+  background-color: lightcoral;
+  padding: 20px;
+  border-radius: 10px;
+  /* flex: 80%;      */
+  width: 450px;
+  height: 450px;
+  border: solid black 2px;
+  /* visibility: hidden; */
+}
+.child2 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 40px;
+  border: solid red 2px;
+  transition: 0.6s ease-in-out;
+}
+
+.hearts {
+  position: absolute;
+  width: 70%;
+  margin: 6px;
+  background-color: none;
+  text-shadow: none;
+  box-shadow: none;
+  font-size: 20px;
+}
+.count {
+  position: relative;
+  width: 40%;
+  height: 60%;
+  margin: 20px 20px 20px 50px;
+  padding: 30px;
+  border: solid black 2px;
+  border-radius: 30px;
+}

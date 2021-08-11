@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King of Hearts</title>
+    <link rel="stylesheet" href="css\style.css">
+</head>
+
+<body>
+    <div class="name" id="name">
+        <h1> King of Hearts</h1>
+    </div>
+    <div class="flex-conainer">
+        <div class="utility">
+            <!-- onclick call a function and start the game -->
+            <button class="btn-start" onclick="visibleGame()" style="font-size: x-large;">Start</button>
+            <div class="count">
+                <div class="level" id="level" style="font-size: x-large;">
+                    Level - 1
+                </div>
+                <p id="count" style="font-size: x-large;">
+                    Click On Start Button to Begin
+                </p>
+            </div>
+        </div>
+        
+        <div class="playground">
+            <div class="parent" id="parent">
+                <div class="child2" id="child2">
+                    <!-- <img src="images\hearts.gif" alt="hearts" > -->
+                    <div class="hearts" id="hearts">❤️️</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="js\index.js"></script>
+</body>
+
+</html>
